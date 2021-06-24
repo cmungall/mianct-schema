@@ -12,7 +12,6 @@ description: |-
    - When new information is discovered for a previously cataloged type that might influence its cataloguing (i.e. description of the presence in a different species or in a new location)
    - When a cell type mentioned in the article has been described before, but is not yet catalogued on an authoritative source like the Cell Ontology.
 
-
 prefixes:
  linkml: https://w3id.org/linkml/
  biolink: https://w3id.org/biolink/vocab/
