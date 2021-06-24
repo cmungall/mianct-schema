@@ -1,14 +1,16 @@
 # Auto generated from mianct.yaml by pythongen.py version: 0.9.0
-# Generation date: 2021-06-24 22:29
+# Generation date: 2021-06-24 22:54
 # Schema: mianct
 #
 # id: https://w3.org/mianct
-# description: When should one provide an entry for a cell type in a MIANCT sheet? - When there is a claim of a
-#              new cell class (type or state) that has not been described before - When new information is
-#              discovered for a previously cataloged type that might influence its cataloguing (i.e. description
-#              of the presence in a different species or in a new location) - When a cell type mentioned in the
-#              article has been described before, but is not yet catalogued on an authoritative source like the
-#              Cell Ontology.
+# description: This schema is CJM's attempt to translate Tiago's [minimal info
+#              doc](https://docs.google.com/document/d/1EVgs2Z5dpJs7cbuSBwWlg1xOWQEqMtbSKRGgdneXnU8/edit#) into a
+#              LinkML schema When should one provide an entry for a cell type in a MIANCT sheet? - When there is a
+#              claim of a new cell class (type or state) that has not been described before - When new information
+#              is discovered for a previously cataloged type that might influence its cataloguing (i.e.
+#              description of the presence in a different species or in a new location) - When a cell type
+#              mentioned in the article has been described before, but is not yet catalogued on an authoritative
+#              source like the Cell Ontology.
 # license: https://creativecommons.org/publicdomain/zero/1.0/
 
 import dataclasses
