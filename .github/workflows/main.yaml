@@ -48,8 +48,8 @@ jobs:
 
     - name: Check updated content
       run: |
-        find linkml_model -name __pycache__ -type d -prune -exec rm -rf '{}' '+'
-        git add --force docs linkml_model
+        find mianct -name __pycache__ -type d -prune -exec rm -rf '{}' '+'
+        git add --force docs mianct
         if [[ ! -z $(git status -s .) ]]
         then
           git config --local user.email "action@github.com"
