@@ -6,6 +6,9 @@ version: 0.0.1
 see_also:
   - https://docs.google.com/document/d/1EVgs2Z5dpJs7cbuSBwWlg1xOWQEqMtbSKRGgdneXnU8/edit#
 description: |-
+
+  This schema is CJM's attempt to translate Tiago's [minimal info doc](https://docs.google.com/document/d/1EVgs2Z5dpJs7cbuSBwWlg1xOWQEqMtbSKRGgdneXnU8/edit#) into a LinkML schema
+  
   When should one provide an entry for a cell type in a MIANCT sheet?
 
    - When there is a claim of a new cell class (type or state) that has not been described before
