@@ -1,16 +1,24 @@
 # Auto generated from mianct.yaml by pythongen.py version: 0.9.0
-# Generation date: 2021-06-24 22:54
+# Generation date: 2021-06-24 23:08
 # Schema: mianct
 #
 # id: https://w3.org/mianct
 # description: This schema is CJM's attempt to translate Tiago's [minimal info
 #              doc](https://docs.google.com/document/d/1EVgs2Z5dpJs7cbuSBwWlg1xOWQEqMtbSKRGgdneXnU8/edit#) into a
-#              LinkML schema When should one provide an entry for a cell type in a MIANCT sheet? - When there is a
-#              claim of a new cell class (type or state) that has not been described before - When new information
-#              is discovered for a previously cataloged type that might influence its cataloguing (i.e.
-#              description of the presence in a different species or in a new location) - When a cell type
-#              mentioned in the article has been described before, but is not yet catalogued on an authoritative
-#              source like the Cell Ontology.
+#              LinkML schema The schema is fairly minimal and is in the form of a "checklist" style schema. It is
+#              a set of fields mostly associated with this class: * [CellType](CellType.md) There are a set of
+#              examples here: * [tests/input](https://github.com/cmungall/mianct-schema/tree/main/tests/input)
+#              Currently the examples are YAML, but the YAML is deliberately flat as this is a "checklist" schema,
+#              and we could have TSV/CSV/xlsx here TODO: - include "packages" and "checklists"; e.g. - a neuron
+#              package would have the enum for morphologies constrained - a transcriptomics package would make it
+#              required to enter the set of marker genes - see [MIxS
+#              schema](https://cmungall.github.io/mixs-source/) for example of how this might work - document how
+#              this relates to dosdp/robot templates When should one provide an entry for a cell type in a MIANCT
+#              sheet? - When there is a claim of a new cell class (type or state) that has not been described
+#              before - When new information is discovered for a previously cataloged type that might influence
+#              its cataloguing (i.e. description of the presence in a different species or in a new location) -
+#              When a cell type mentioned in the article has been described before, but is not yet catalogued on
+#              an authoritative source like the Cell Ontology.
 # license: https://creativecommons.org/publicdomain/zero/1.0/
 
 import dataclasses

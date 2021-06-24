@@ -110,6 +110,25 @@
               
                 <h1 id="mianct-schema">mianct schema</h1>
 <p>This schema is CJM's attempt to translate Tiago's <a href="https://docs.google.com/document/d/1EVgs2Z5dpJs7cbuSBwWlg1xOWQEqMtbSKRGgdneXnU8/edit#">minimal info doc</a> into a LinkML schema</p>
+<p>The schema is fairly minimal and is in the form of a "checklist" style schema. It is a set of fields mostly associated with this class:</p>
+<ul>
+<li><a href="CellType/">CellType</a></li>
+</ul>
+<p>There are a set of examples here:</p>
+<ul>
+<li><a href="https://github.com/cmungall/mianct-schema/tree/main/tests/input">tests/input</a></li>
+</ul>
+<p>Currently the examples are YAML, but the YAML is deliberately flat as this is a "checklist" schema, and we could have TSV/CSV/xlsx here</p>
+<p>TODO:</p>
+<ul>
+<li>include "packages" and "checklists"; e.g.<ul>
+<li>a neuron package would have the enum for morphologies constrained</li>
+<li>a transcriptomics package would make it required to enter the set of marker genes</li>
+<li>see <a href="https://cmungall.github.io/mixs-source/">MIxS schema</a> for example of how this might work</li>
+</ul>
+</li>
+<li>document how this relates to dosdp/robot templates</li>
+</ul>
 <p>When should one provide an entry for a cell type in a MIANCT sheet?</p>
 <ul>
 <li>When there is a claim of a new cell class (type or state) that has not been described before</li>
@@ -235,5 +254,5 @@
 
 <!--
 MkDocs version : 1.2.1
-Build Date UTC : 2021-06-24 22:54:23.055728+00:00
+Build Date UTC : 2021-06-24 23:08:32.325426+00:00
 -->
