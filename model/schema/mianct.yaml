@@ -24,7 +24,7 @@ description: |-
     - include "packages" and "checklists"; e.g.
         - a neuron package would have the enum for morphologies constrained
         - a transcriptomics package would make it required to enter the set of marker genes
-        - see [MIxS schema](https://github.com/cmungall/mixs-source) for example of how this might work
+        - see [MIxS schema](https://cmungall.github.io/mixs-source/) for example of how this might work
     - document how this relates to dosdp/robot templates
     
   When should one provide an entry for a cell type in a MIANCT sheet?
