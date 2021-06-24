@@ -17,6 +17,8 @@ prefixes:
  biolink: https://w3id.org/biolink/vocab/
  sdo: https://schema.org/
  mianct: https://w3.org/mianct/
+ UBERON: http://purl.obolibrary.org/obo/UBERON_
+ CL: http://purl.obolibrary.org/obo/CL_
 
 default_prefix: mianct
 default_curi_maps:

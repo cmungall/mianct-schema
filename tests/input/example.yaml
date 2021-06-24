@@ -1,0 +1,6 @@
+id: MYCELL:123
+label: my cell
+taxon: NCBITaxon:9606
+organ_or_tissue: UBERON:0001890 ## forebrain
+major_life_stage: embryonic or fetal
+major_class: neuron
