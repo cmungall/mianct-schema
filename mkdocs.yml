@@ -1,0 +1,7 @@
+site_name: "Minimal Information About a new Cell Type"
+theme: readthedocs
+docs_dir: target/docs
+site_dir: docs
+nav:
+  - Index: index.md
+  - Credits: credits.md

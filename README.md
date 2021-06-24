@@ -1,3 +1,4 @@
-# Placeholder README
-This file will be replaced in the build process.  The details about how to use this template
-can be found in [ABOUT.md](./ABOUT.md).
+# LinkML Minimal Information About a new Cell Type
+Schema for new cell type requests
+
+## [Documentation](https://obophenotype.github.io/mianct/)
