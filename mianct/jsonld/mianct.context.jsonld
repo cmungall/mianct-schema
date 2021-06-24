@@ -1,0 +1,81 @@
+{
+   "_comments": "Auto generated from mianct.yaml by jsonldcontextgen.py version: 0.1.1\n    Generation date: 2021-06-24 22:29\n    Schema: mianct\n    \n    id: https://w3.org/mianct\n    description: When should one provide an entry for a cell type in a MIANCT sheet?\n\n - When there is a claim of a new cell class (type or state) that has not been described before\n - When new information is discovered for a previously cataloged type that might influence its cataloguing (i.e. description of the presence in a different species or in a new location)\n - When a cell type mentioned in the article has been described before, but is not yet catalogued on an authoritative source like the Cell Ontology.\n    license: https://creativecommons.org/publicdomain/zero/1.0/\n    ",
+   "@context": {
+      "BFO": {
+         "@id": "http://purl.obolibrary.org/obo/BFO_",
+         "@prefix": true
+      },
+      "CL": {
+         "@id": "http://purl.obolibrary.org/obo/CL_",
+         "@prefix": true
+      },
+      "MESH": "http://example.org/UNKNOWN/MESH/",
+      "NCBITaxon": {
+         "@id": "http://purl.obolibrary.org/obo/NCBITaxon_",
+         "@prefix": true
+      },
+      "RO": {
+         "@id": "http://purl.obolibrary.org/obo/RO_",
+         "@prefix": true
+      },
+      "UBERON": {
+         "@id": "http://purl.obolibrary.org/obo/UBERON_",
+         "@prefix": true
+      },
+      "WIKIDATA": "http://example.org/UNKNOWN/WIKIDATA/",
+      "biolink": "https://w3id.org/biolink/vocab/",
+      "linkml": "https://w3id.org/linkml/",
+      "mianct": "https://w3.org/mianct/",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "sdo": "https://schema.org/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "@vocab": "https://w3.org/mianct/",
+      "develops_from": {
+         "@type": "@id"
+      },
+      "develops_into": {
+         "@type": "@id"
+      },
+      "id": "@id",
+      "label": {
+         "@id": "rdfs:label"
+      },
+      "major_class": {
+         "@context": {
+            "@vocab": "@null",
+            "text": "skos:notation",
+            "description": "skos:prefLabel",
+            "meaning": "@id"
+         }
+      },
+      "major_life_stage": {
+         "@context": {
+            "@vocab": "@null",
+            "text": "skos:notation",
+            "description": "skos:prefLabel",
+            "meaning": "@id"
+         }
+      },
+      "morphology": {
+         "@context": {
+            "@vocab": "@null",
+            "text": "skos:notation",
+            "description": "skos:prefLabel",
+            "meaning": "@id"
+         }
+      },
+      "organ_or_tissue": {
+         "@id": "BFO:0000050"
+      },
+      "taxon": {
+         "@id": "RO:0002162"
+      },
+      "CellType": {
+         "@id": "CL:0000000"
+      },
+      "OrganismTaxon": {
+         "@id": "biolink:OrganismTaxon"
+      }
+   }
+}
+

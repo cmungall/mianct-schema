@@ -1,0 +1,84 @@
+{
+   "$id": "https://w3.org/mianct",
+   "$schema": "http://json-schema.org/draft-07/schema#",
+   "definitions": {
+      "CellType": {
+         "additionalProperties": false,
+         "description": "Minimal information about a cell type",
+         "properties": {
+            "develops_from": {
+               "type": "string"
+            },
+            "develops_into": {
+               "items": {
+                  "type": "string"
+               },
+               "type": "array"
+            },
+            "diagnostic_description": {
+               "type": "string"
+            },
+            "id": {
+               "type": "string"
+            },
+            "label": {
+               "description": "The main label used to refer to a cell type",
+               "type": "string"
+            },
+            "major_class": {
+               "type": "string"
+            },
+            "major_life_stage": {
+               "description": "Cells of this type were identified at this stage",
+               "type": "string"
+            },
+            "morphology": {
+               "type": "string"
+            },
+            "organ_or_tissue": {
+               "description": "Cells of this type were identified in an organ of this kind.",
+               "type": "string"
+            },
+            "previous_observations": {
+               "items": {
+                  "type": "string"
+               },
+               "type": "array"
+            },
+            "taxon": {
+               "description": "Cells of this type were identified in an individual of this taxon. If the cell type is thought to be exclusive for that cell type, note it on the additional information field.",
+               "type": "string"
+            }
+         },
+         "required": [
+            "id",
+            "label"
+         ],
+         "title": "CellType",
+         "type": "object"
+      },
+      "OrganismTaxon": {
+         "additionalProperties": false,
+         "description": "A classification of a set of organisms. Example instances: NCBITaxon:9606 (Homo sapiens), NCBITaxon:2 (Bacteria). Can also be used to represent strains or subspecies.",
+         "properties": {
+            "id": {
+               "type": "string"
+            },
+            "label": {
+               "description": "The main label used to refer to a cell type",
+               "type": "string"
+            }
+         },
+         "required": [
+            "id",
+            "label"
+         ],
+         "title": "OrganismTaxon",
+         "type": "object"
+      }
+   },
+   "properties": {},
+   "title": "mianct",
+   "type": "object"
+}
+
