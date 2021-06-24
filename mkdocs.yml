@@ -5,3 +5,5 @@ site_dir: docs
 nav:
   - Index: index.md
   - Credits: credits.md
+site_url: https://cmungall.github.io/mianct/
+repo_url: https://github.com/cmungall/mianct/
